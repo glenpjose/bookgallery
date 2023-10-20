@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: aqua;
+    width: 100%;
+    height: 50px;
+}
+
+/* Descendant selector */
+header h2{
+    
+    color: blueviolet;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px;
+    text-align: center;
+}
+
+h2:hover{
+    color: blanchedalmond;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.row{
+    background-color: rgba(206, 167, 69, 0.847);
+    width: 100%;
+    height: 500px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.col{
+    background-color: rgba(211, 59, 51, 0.551);
+    width: 250px;
+    height: 300px;
+    margin-left: 10px;
+}
+
+img{
+    height: 200px;
+    padding: 10px;
+    border-radius: 10%;
+}
+
+
+h4,h5{
+       text-align: center;
+       color: chocolate;
+}
+
+#btn{
+    color: blueviolet;
+    background-color: lightgreen;
+    padding: 5px;
+    margin-left: 90px;
+}
+
+#btn1{
+    color: rgba(233, 12, 12, 0.879);
+    background-color: rgba(91, 23, 229, 0.808);
+    padding: 5px;
+    margin-left: 90px;
+}
+
+#btn2{
+    color: rgba(100, 8, 101, 0.548);
+    background-color: rgb(17, 86, 17);
+    padding: 5px;
+    margin-left: 90px;
+}
+
+footer,p{
+    background-color: rgba(11, 48, 160, 0.841);
+    width: 100%;
+    height: 50px;
+    columns: black;
+    
+}
+h3{
+    color: black;
+    text-align: center;
+    
+}
+
+.banner{
+    background-image:url( https://as2.ftcdn.net/v2/jpg/05/04/71/79/1000_F_504717998_xZXnfNvX6bMMkZ0mDFLn6OC4WOnRGqUI.jpg);
+    width: 100%;
+height: 500px;
+background-repeat: no-repeat;
+align-content: center;
+}
